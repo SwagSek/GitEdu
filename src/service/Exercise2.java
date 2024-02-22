@@ -19,8 +19,6 @@ public class Exercise2 {
 	}	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		System.out.println(factorialRecursive(6));
 		System.out.println(factorialForLoop(6));
 	}

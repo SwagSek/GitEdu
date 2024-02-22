@@ -29,8 +29,6 @@ public class Exercise5 {
 		
 		for(int i = 0; i < N; i++) {
 			currentRoll = random.nextInt(6) + 1;
-			System.out.println(currentRoll);
-			
 			switch(currentRoll) {
 			case 6:
 				sixCount++;
@@ -70,6 +68,13 @@ public class Exercise5 {
 	}
 	
 	public static void main (String[] args) {
+		System.out.println(Arrays.toString(coinFlip(10)));
+		System.out.println(Arrays.toString(coinFlip(100)));
+		System.out.println(Arrays.toString(coinFlip(1000)));
+		System.out.println(Arrays.toString(coinFlip(10000)));
+		
+		System.out.println(Arrays.toString(rollDice(10000)));
+		
 		System.out.println(roll2Dices());
 	}
 }

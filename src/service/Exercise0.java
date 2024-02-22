@@ -1,10 +1,4 @@
 package service;
-
-/*
- * MainService for Seminar1
- * @author Elvijs Leistmanis
- */
-
 public class Exercise0 {
 	public static void main (String[] args) {
 		String[] names = { "Elena", "Thomas", "Hamilton", "Suzie", "Phil", "Matt", 
