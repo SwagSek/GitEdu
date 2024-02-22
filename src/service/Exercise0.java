@@ -5,7 +5,7 @@ package service;
  * @author Elvijs Leistmanis
  */
 
-public class MainService {
+public class Exercise0 {
 	public static void main (String[] args) {
 		String[] names = { "Elena", "Thomas", "Hamilton", "Suzie", "Phil", "Matt", 
 				"Alex", "Emma", "John", "James", "Jane", "Emily", "Daniel", "Neda", 
